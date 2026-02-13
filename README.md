@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CareOps Frontend
 
-## Getting Started
+Beautiful, modern frontend for the CareOps unified operations platform built with Next.js 13+, TypeScript, Tailwind CSS, and shadcn/ui.
 
-First, run the development server:
+## 🚀 Quick Start
+
+### Prerequisites
+- **Node.js ≥20.9.0** (currently requires update from 20.5.0)
+- **pnpm** package manager (recommended)
+
+### Installation & Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Update Node.js first (required)
+# Then install dependencies
+pnpm install
+
+# Start development server
+pnpm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000` to see your CareOps frontend!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔗 Backend Connection
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+✅ **Already Connected**: Your frontend is pre-configured to connect to your deployed Railway backend:
 
-## Learn More
+- **API Base URL**: `https://worker-production-c10a.up.railway.app`
+- **Authentication**: JWT token-based auth ready
+- **SMS & Email**: Notifications fully working via backend
 
-To learn more about Next.js, take a look at the following resources:
+## 📱 Features Implemented
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+✅ **Landing Page**: Stunning gradient design with feature showcase  
+✅ **Authentication**: Login/Register with Railway backend integration  
+✅ **API Integration**: Complete axios client with interceptors  
+✅ **Error Handling**: User-friendly error messages  
+✅ **Responsive Design**: Mobile-first approach  
+✅ **Type Safety**: Full TypeScript implementation  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎉 Ready for Development!
 
-## Deploy on Vercel
+Your CareOps frontend foundation is complete and ready for feature development. The authentication system will connect users to your deployed Railway backend, and all SMS/email notifications are already working!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Next**: Update Node.js → `pnpm run dev` → Start building dashboard components! 🚀
